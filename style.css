@@ -1,1 +1,71 @@
-
+*{
+  margin: 0;
+  color: white;
+}
+body{
+  background-image: url('./assets/home/background-home-desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0 50px 50px;
+}
+hr{
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 400px;
+  border: 0;
+}
+.links{
+  display: flex;
+  gap: 50px;
+  background-color: rgba(81, 85, 109, 0.6);
+  padding: 0 200px 0 100px;
+}
+a{
+  text-decoration: none;
+  padding: 20px 0;
+}
+.active{
+  border-bottom: 3px solid white;
+}
+header{
+  height: 100px;
+}
+main{
+  margin: 0 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h2{
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 100px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+p{
+  width: 300px;
+}
+.explore{
+  color: #000;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  border: 0;
+}
